@@ -1,0 +1,41 @@
+body{
+    background-color: moccasin;
+    font-family: 'Roboto', sans-serif;}
+
+h1,h2,h3,h4,h5,h6{text-align: center;}
+
+p{
+    color: white;
+    /* font-size: 24px; */
+}
+div h2{
+    color: aquamarine;
+}
+/* Ids son uicos por elementos */
+
+#parrafo-especial{
+    font-size: 45spx;
+    font-weight: bold;
+    align-items: center;
+}
+.parrafo{
+    color: blue;
+    font-style: italic;
+}
+
+a, image{ display: block;align-items: center;}
+
+a{
+     margin: 50px;
+     text-decoration: none;
+     color: rgb(173, 173, 173);
+}
+
+a:hover{
+    color: rgb(36, 36, 158);
+}
+
+image{
+    width: 70%;
+    margin: auto;
+}
